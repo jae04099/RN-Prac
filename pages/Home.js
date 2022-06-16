@@ -1,19 +1,15 @@
 import * as React from 'react';
-import { StyleSheet, Text } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 const Home = () => {
   return (
-      <Text style={{ fontSize: 24, color: "white" }}>Home</Text>
-  );
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Home Screen</Text>
+    </View>);
 };
 
 const styles = StyleSheet.create({
- navHead:{
-    backgroundColor: "#4B778D",
-    padding: 16,
-    margin: 10,
-    borderRadius: 8,
- }
+
 });
 
 
